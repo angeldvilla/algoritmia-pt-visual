@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algoritmo de Consultas</title>
+  </head>
+  <body>
+    <h2>Ingresar Datos</h2>
+    <label>Tamaño de la lista:</label>
+    <input type="text" id="tamanoLista" /><br /><br />
+
+    <label>Lista base (números separados por espacio, de menor a mayor):</label>
+    <input type="text" id="listaBase" /><br /><br />
+
+    <label>Número de consultas:</label>
+    <input type="text" id="numeroConsultas" /><br /><br />
+
+    <label>Lista de consultas (números separados por espacio):</label>
+    <input type="text" id="listaConsultas" /><br /><br />
+
+    <button onclick="ejecutarConsulta()">Ejecutar Consulta</button>
+
+    <h3>Resultado:</h3>
+    <pre id="resultado"></pre>
+
+    <script src="script.js"></script>
+  </body>
+</html>
