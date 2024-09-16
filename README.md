@@ -26,7 +26,7 @@ Sigue estos pasos para ejecutar la aplicación:
    - Puedes clonar este repositorio o descargar el archivo ZIP.
 
    ```bash
-   git clone https://github.com/tu-usuario/algoritmo-de-consultas.git
+   git clone https://github.com/tu-usuario/algoritmia-pt-visual.git
 
 
 2. **Estructura del proyecto:**
